@@ -73,3 +73,8 @@ header {
 a {
     all: unset;
   }
+
+.about_body {
+    margin: auto;
+    width: 500px;
+}
