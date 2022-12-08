@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Roboto Mono', monospace;
 }
 
 header {
@@ -38,6 +41,8 @@ header {
     grid-template-rows:repeat(5, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    text-decoration: none !important;
+   
 }
 
 #projects {
@@ -64,3 +69,7 @@ header {
     text-align: right;
     font-size: 1em;
 }
+
+a {
+    all: unset;
+  }
