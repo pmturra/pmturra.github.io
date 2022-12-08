@@ -42,7 +42,6 @@ header {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     text-decoration: none !important;
-   
 }
 
 #projects {
@@ -77,4 +76,22 @@ a {
 .about_body {
     margin: auto;
     width: 500px;
+}
+
+#about:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+#contact:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+#projects:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
